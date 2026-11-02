@@ -1,0 +1,15 @@
+{
+  "name": "access-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nginx + Node.js + SQLite access gateway with domain-locked authentication, role-based access and an append-only audit trail.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "smoke": "bash scripts/smoke.sh"
+  }
+}
